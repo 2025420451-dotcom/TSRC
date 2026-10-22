@@ -110,7 +110,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\experiments\run_all_mcrr_e
 | 训练期间验证、挑选骨干检查点 | `-CheckpointEvalMode` | `--checkpoint_eval_mode` | `full` |
 | TSRC 验证集选权及最终测试 | `-EvalMode` | `--eval_mode` | `sampled` |
 
-保留默认组合即可执行“全量选检查点、采样测试”。若需要全量测试，将运行命令中的 `-EvalMode sampled` 改为 `-EvalMode full`；若需要按采样验证集挑选检查点，将 `-CheckpointEvalMode full` 改为 `-CheckpointEvalMode sampled`。测试数据始终不参与检查点或融合权重的选择。
+若需要全量测试，将运行命令中的 `-EvalMode sampled` 改为 `-EvalMode full`；若需要按采样验证集挑选检查点，将 `-CheckpointEvalMode full` 改为 `-CheckpointEvalMode sampled`。测试数据始终不参与检查点或融合权重的选择。
 
 ### 结果位置
 
