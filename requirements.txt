@@ -1,0 +1,8 @@
+# Exact core versions from the llm-esr-master experiment environment.
+# Official CUDA 12.8 wheel source (including the Windows Python 3.10 build).
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0+cu128
+numpy==1.24.3
+pandas==2.0.1
+tqdm==4.65.0
+tensorboard==2.20.0

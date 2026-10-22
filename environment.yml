@@ -1,0 +1,17 @@
+# Reference experiment: Windows x64, Python 3.10.20 (Conda build hb00fc5c_1).
+# Hardware: AMD Ryzen 7 9800X3D; RAM 16 GB; RTX 5060 Ti 16 GB.
+# NVIDIA driver: 610.62. PyTorch CUDA runtime: 12.8.
+# GPU hardware and the NVIDIA driver are configured outside Conda.
+name: tsrc
+channels:
+  - defaults
+dependencies:
+  - python=3.10.20=hb00fc5c_1
+  - pip=26.1.2=pyhc872135_0
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu128
+      - torch==2.11.0+cu128
+      - numpy==1.24.3
+      - pandas==2.0.1
+      - tqdm==4.65.0
+      - tensorboard==2.20.0

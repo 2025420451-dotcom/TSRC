@@ -1,0 +1,38 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# IDE and notebook state
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Training logs, checkpoints and generated experiment artifacts
+log*/
+logs/
+saved/
+saved_*/
+output/
+runs/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.tmp
+
+# Preprocessed interaction/embedding payloads stay local
+*.txt
+*.pkl
+!requirements.txt
+/data/*/handled/*
+!/data/*/handled/.gitkeep
+/data/*/raw/*
+!/data/*/raw/.gitkeep
+
+# OS metadata
+.DS_Store
+Thumbs.db
