@@ -18,7 +18,7 @@ The semantic branch centers and normalizes item embeddings, then computes matchi
 ## Datasets
 
 - **Datasets**: Yelp, Amazon Fashion, and Amazon Beauty.
-- **Download**: [Preprocessed datasets](https://drive.google.com/file/d/1MpBUjCDLiFIEODTnopSCzDAnS8RzO9aV/view?usp=sharing), provided by the [official LLM-ESR repository](https://github.com/Applied-Machine-Learning-Lab/LLM-ESR).
+- **Download**: [Preprocessed datasets](https://drive.google.com/file/d/1ELRQKfskCdFMEy9f1ujc8qfJcKRaoA6v/view)
 - **Data directories**: `data/yelp/handled/`, `data/fashion/handled/`, and `data/beauty/handled/`.
 - **Required files**: `inter.txt`, `itm_emb_np.pkl`, `pca64_itm_emb_np.pkl`, and `sim_user_100.pkl`.
 
