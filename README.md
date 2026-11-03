@@ -18,7 +18,7 @@ TSRC 利用离线物品语义，在测试时校准序列推荐模型的得分，
 ## 数据集获取
 
 - **数据集**：Yelp、Amazon Fashion、Amazon Beauty。
-- **下载**：[预处理数据](https://drive.google.com/file/d/1MpBUjCDLiFIEODTnopSCzDAnS8RzO9aV/view?usp=sharing)，由 [LLM-ESR 官方仓库](https://github.com/Applied-Machine-Learning-Lab/LLM-ESR)提供。
+- **下载**：[预处理数据](https://drive.google.com/file/d/1ELRQKfskCdFMEy9f1ujc8qfJcKRaoA6v/view)。
 - **存放目录**：`data/yelp/handled/`、`data/fashion/handled/`、`data/beauty/handled/`。
 - **所需文件**：`inter.txt`、`itm_emb_np.pkl`、`pca64_itm_emb_np.pkl`、`sim_user_100.pkl`。
 
