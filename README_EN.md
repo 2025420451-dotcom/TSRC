@@ -97,7 +97,7 @@ The `-ForceRetrain` flag ensures that training is performed again on every run, 
 Prepare all three datasets (Yelp, Fashion, and Beauty) before running:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\experiments\run_all_mcrr_experiments.ps1 -SeedsCsv "41,42,43,44,45" -GpuIdsCsv "0" -NumWorkers 0 -Epochs 200 -CheckpointEvalMode full -EvalMode sampled -ForceRetrain
+powershell -NoProfile -ExecutionPolicy Bypass -File .\experiments\run_all_mcrr_experiments.ps1 -SeedsCsv "41,42,43,44,45" -GpuIdsCsv "0" -NumWorkers 0 -Epochs 200 -ForceRetrain
 ```
 
 This command trains 45 backbones from scratch in sequence. After each backbone has been trained, it automatically evaluates the Base model and nine TSRC configurations.
