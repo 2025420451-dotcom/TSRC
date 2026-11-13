@@ -81,7 +81,7 @@ conda activate tsrc
 ### Single Configuration: Fashion–GRU4Rec, with Automatic Testing After Training
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\experiments\run_all_mcrr_experiments.ps1 -Datasets fashion -Models llmesr_gru4rec -SeedsCsv "42" -GpuIdsCsv "0" -NumWorkers 0 -Epochs 200 -CheckpointEvalMode full -EvalMode sampled -ForceRetrain
+powershell -NoProfile -ExecutionPolicy Bypass -File .\experiments\run_all_mcrr_experiments.ps1 -Datasets fashion -Models llmesr_gru4rec -SeedsCsv "42" -GpuIdsCsv "0" -NumWorkers 0 -Epochs 200 -ForceRetrain
 ```
 
 This command performs the following steps in sequence:
