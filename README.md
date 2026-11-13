@@ -81,7 +81,7 @@ conda activate tsrc
 ### 单个组合：Fashion–GRU4Rec，训练后自动测试
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\experiments\run_all_mcrr_experiments.ps1 -Datasets fashion -Models llmesr_gru4rec -SeedsCsv "42" -GpuIdsCsv "0" -NumWorkers 0 -Epochs 200 -CheckpointEvalMode full -EvalMode sampled -ForceRetrain
+powershell -NoProfile -ExecutionPolicy Bypass -File .\experiments\run_all_mcrr_experiments.ps1 -Datasets fashion -Models llmesr_gru4rec -SeedsCsv "42" -GpuIdsCsv "0" -NumWorkers 0 -Epochs 200 -ForceRetrain
 ```
 
 这一条命令会依次执行：
@@ -97,7 +97,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\experiments\run_all_mcrr_e
 先准备好 Yelp、Fashion、Beauty 三个数据集，再执行：
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\experiments\run_all_mcrr_experiments.ps1 -SeedsCsv "41,42,43,44,45" -GpuIdsCsv "0" -NumWorkers 0 -Epochs 200 -CheckpointEvalMode full -EvalMode sampled -ForceRetrain
+powershell -NoProfile -ExecutionPolicy Bypass -File .\experiments\run_all_mcrr_experiments.ps1 -SeedsCsv "41,42,43,44,45" -GpuIdsCsv "0" -NumWorkers 0 -Epochs 200 -ForceRetrain
 ```
 
 该命令依次完成 45 个骨干的从头训练；每个骨干训练结束后，自动执行 Base 和 9 种 TSRC 配置的测试。
