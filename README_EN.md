@@ -1,7 +1,7 @@
 # TSRC: Test-Time Semantic Residual Calibration for Long-Tail Sequential Recommendation
 
-This repository accompanies the paper **Revisiting the Ranking Value of Training-Time LLM Semantics for Long-Tail
-Sequential Recommendation**.
+This repository accompanies the paper **Unlocking LLM Semantics: Test-Time Semantic Residual Calibration for
+Long-Tail Sequential Recommendation**.
 
 ## Overview
 
