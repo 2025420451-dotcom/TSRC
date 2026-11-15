@@ -1,7 +1,7 @@
 # TSRC：面向长尾序列推荐的测试时语义残差校准
 
-本项目对应论文 **Revisiting the Ranking Value of Training-Time LLM Semantics for Long-Tail
-Sequential Recommendation**。
+本项目对应论文 **Unlocking LLM Semantics: Test-Time Semantic Residual Calibration for
+Long-Tail Sequential Recommendation**。
 
 ## 模型简介
 
